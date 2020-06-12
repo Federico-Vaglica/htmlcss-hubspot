@@ -5,30 +5,61 @@
         <title>HubSpot</title>
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,500&display=swap" rel="stylesheet">
     </head>
     <body>
         <header>
             <!--Qui ce il fixed banner-->
-            <div class="main-container-fixed">
-                <ul>
-                    <li><i class="fa fa-globe" aria-hidden="true"></i>English</li>
-                    <li>Contact us</li>
-                </ul>
-            </div>
-            <!--Qui ce la nav bar-->
-        </header>
-            <nav>
-                <div class="main-container">
-                    <div class="logo"></div>
-                    <div class="menu-voices"></div>
+            <div class="topHeaderBar">
+                <div class="fixedMenu clearfix">
+                    <div class="leftmenu">
+                       <ul class="topleft clearfix">
+                           <li>
+                               <i class="fas fa-globe-europe"></i>
+                               <span>English</span>
+                           </li>
+                           <li>Contact us</li>
+                       </ul>
+                    </div>
+
+                    <div class="rightmenu">
+                        <i class="fas fa-search"></i>
+                        <button type="button" class="button1">Log in</button>
+                        <button type="button" class="button">GetHubsportFree</button>
+                    </div>
                 </div>
-            </nav>
+           </div>
+
+           <div class="bottomHeader">
+                <div class="bottomMenu clearfix">
+                    <div class="bottomLeft">
+                        <div class="logo">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/HubSpot_Logo.svg/640px-HubSpot_Logo.svg.png" alt="logo">
+                        </div>
+                    </div>
+                    <div class="bottomRightMenu">
+                        <ol class="menuRight">
+                            <li>Software <i class="fa fa-chevron-down" aria-hidden="true"></i></li>
+                            <li>Pricing <i class="fa fa-chevron-down" aria-hidden="true"></i></li>
+                            <li>Resources <i class="fa fa-chevron-down" aria-hidden="true"></i></li>
+                            <li>Partners <i class="fa fa-chevron-down" aria-hidden="true"></i></li>
+                            <li>About <i class="fa fa-chevron-down" aria-hidden="true"></i></li>
+                        </ol>
+                    </div>
+
+                </div>
+           </div>
+        </header>
+
         <section>
             <!--Qui troviamo il primo contenitore , con due contenitori all intenro il pulsante e limg sullo sfondo-->
             <div class="bcg-mainContainer">
-                <div class="main-container clearfix">
-                    <div class="left-container"></div>
-                    <div class="bcg-img"></div>
+                <div class="jumbotron">
+                    <div class="leftJumbo">
+                        <h1>There's a better way to grove.</h1>
+                        <p>Marketing,sales,and service software that helps your business grow without compromise, Because "good for the business" shuold also mean good for the customer</p>
+                        <button type="button" class="button">GetHubsportFree</button>
+                    </div>
                 </div>
             </div>
             <!--e qui troviamo la barra azzurra di separazione-->
@@ -37,14 +68,11 @@
         <section>
             <!--Questa e' la sezione con all-interno le card-->
             <div class="bcg-bodycolor">
-                <div class="main-container clearfix">
-            <!--Le prime due Card una sopra l altra-->
-                    <div class="hr-card"></div>
-                    <div class="hr-card"></div>
-            <!--e qui le 3 una vicia l altra-->
-                        <div class="vertical-card"></div>
-                        <div class="vertical-card"></div>
-                        <div class="vertical-card"></div>
+                    <div class="hr-card">
+                        <img src="https://slack-imgs.com/?c=1&o1=ro&url=https%3A%2F%2Fwww.hubspot.com%2Fhubfs%2Fassets%2Fhubspot.com%2Fhome%2F2018%2FIntegrations_Illustration%402x.png" alt="">
+                        <h2>Powerful Alone. Better Toghether</h2>
+                        <h3> HubSpot offers a full stack of software for marketing, sales, and customer service, with a completely free CRM at its core. They’re powerful alone — but even better when used together.</h3>
+                    </div>
                 </div>
             </div>
         </section>

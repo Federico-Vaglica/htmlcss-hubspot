@@ -10,49 +10,110 @@
     clear: both;
 }
 
+html {
+    font-family: 'Montserrat', sans-serif;
+}
 /*Inizio style header */
 
-header {
+.topHeaderBar {
     width: 100vw;
     background-color: #b4dff0;
-
     /*DA CANCELLARE*/
     height: 80px;
 }
 
-ul li {
-    display: inline-block;
-    padding: 0px 25px;
-}
 
-.main-container-fixed {
+.fixedMenu {
     width: 80vw;
     margin: 0 auto;
-    /*DA CANCELLARE*/
-    height: 100%;
-    background-color: orange;
-    border-bottom: 2px solid black;
+    text-align: center;
+    height: 70px;
     line-height: 5;
 }
 
-.main-container {
-    width: 80vw;
-    margin: 0 auto;
-    /*DA CANCELLARE*/
-    height: 100%;
-    background-color: orange;
-    border-bottom: 2px solid black;
+.leftmenu {
+    float:left;
 }
 
-nav {
+.topleft li{
+    float:left;
+    list-style-type: none;
+}
+
+
+.topleft li:last-child {
+    padding-left: 20px;
+}
+
+.rightmenu {
+    float:right;
+    text-align: right;
+}
+
+.rightmenu .button1 {
+    color:orange;
+    padding:10px;
+    background-color:#f5f8fa;
+    border: 1px solid orange;
+    margin-left:25px;
+    font-size:15px
+}
+
+.rightmenu .button {
+    color:white;
+    padding:10px;
+    background-color:orange;
+    border: 1px solid orange;
+    margin-left:25px;
+    font-size:15px;
+}
+
+.button {
+    color:white;
+    padding:10px;
+    background-color:orange;
+    border: 1px solid orange;
+    margin:20px auto;
+    font-size:15px;
+}
+
+.bottomHeader {
     width: 100vw;
     background-color: #ffffff;
-
     /* DA CANCELLARE */
-    height: 80px;
+    height: 70px;
 }
 
+.bottomMenu {
+    width: 80%;
+    margin: 0 auto;
+    line-height: 70px;
+}
 
+.bottomLeft {
+    width: 30%;
+    float: left;
+    font-size: 20px;
+    height: 70px;
+}
+
+.logo img {
+    width: auto;
+    height: 30px;
+}
+
+.bottomRightMenu {
+   float: right;
+   text-align: right;
+   height: 70px;
+}
+
+ol li {
+    padding-left:30px;
+    font-size: 16px;
+    float: left;
+    list-style-type: none;
+}
 /*FINE STYLE HEADER*/
 
 
@@ -61,18 +122,33 @@ nav {
 .bcg-mainContainer {
     width: 100vw;
     background-color: #fff4ee;
-
+    background-image: url(https://www.hubspot.com/hubfs/raw_assets/public/_Web%20Team%20Assets/Website/assets/svg/hero.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
     /*DA CANCELLARE*/
     height: 600px;
 }
 
-.bcg-img {
-    width:50%;
-    float: left;
-    /*Da cancellare*/
+.jumbotron {
+    width: 80%;
+    margin: 0 auto;
     height: 100%;
-    background-color: lightgreen;
+    position: relative;
+
 }
+
+.leftJumbo {
+    width: 50%;
+    height: 400px;
+    position: absolute;
+    top:30%;
+}
+
+.leftJumbo h1 p {
+    font-size:50px;
+}
+
+
 
 .left-container {
     width: 50%;
@@ -101,32 +177,26 @@ nav {
     height: 100vh;
 }
 
-.hr-card {
-    width: 100%;
 
+
+.hr-card {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
     /* Da cancellare*/
 
-    height: 30%;
-    background-color: green;
-    border: 1px solid black;
 }
 
-.cards-container {
-    width: 100%;
-
-    /*DA CANCELLARE*/
-    background-color: yellow;
-}
-
-.vertical-card {
+.hr-card img {
     width: 30%;
-    margin: 0px 21px;
-    float: left;
-    /*DA CANCELLARE*/
-
-    height: 40%;
-    background-color: brown;
+    height: 220px;
 }
+
+.hr-card h3 {
+    padding:20px 40px 0px 40px;
+}
+
+
 
 .bcg-gridContainer {
     width: 100vw;
