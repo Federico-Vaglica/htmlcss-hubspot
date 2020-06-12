@@ -11,12 +11,28 @@
 }
 
 /*Inizio style header */
-.bcg-fixedBar {
+
+header {
     width: 100vw;
     background-color: #b4dff0;
 
     /*DA CANCELLARE*/
     height: 80px;
+}
+
+ul li {
+    display: inline-block;
+    padding: 0px 25px;
+}
+
+.main-container-fixed {
+    width: 80vw;
+    margin: 0 auto;
+    /*DA CANCELLARE*/
+    height: 100%;
+    background-color: orange;
+    border-bottom: 2px solid black;
+    line-height: 5;
 }
 
 .main-container {
@@ -51,9 +67,8 @@ nav {
 }
 
 .bcg-img {
-    width:100%;
-    position: relative;
-
+    width:50%;
+    float: left;
     /*Da cancellare*/
     height: 100%;
     background-color: lightgreen;
@@ -61,9 +76,7 @@ nav {
 
 .left-container {
     width: 50%;
-    position: absolute;
-    top: 0;
-    left: 0;
+    float: left;
     /*DA CANCELLARE*/
     background-color: violet;
     height: 100%;
@@ -87,4 +100,133 @@ nav {
     /*DA CANCELLARE*/
     height: 100vh;
 }
+
+.hr-card {
+    width: 100%;
+
+    /* Da cancellare*/
+
+    height: 30%;
+    background-color: green;
+    border: 1px solid black;
+}
+
+.cards-container {
+    width: 100%;
+
+    /*DA CANCELLARE*/
+    background-color: yellow;
+}
+
+.vertical-card {
+    width: 30%;
+    margin: 0px 21px;
+    float: left;
+    /*DA CANCELLARE*/
+
+    height: 40%;
+    background-color: brown;
+}
+
+.bcg-gridContainer {
+    width: 100vw;
+    background-color: #00a9b8;
+
+    /*DA CANCELLARE*/
+
+    height: 50vh;
+}
+
+.grid-container {
+    width: 100%;
+
+    /*DA CANCELLARE*/
+    height: 70%;
+    background-color: red;
+}
+
+
+.bcg-lastContainer {
+    width: 100vw;
+    height: 50vh;
+    background-color: #ffffff
+}
+
+.left-container-bottom {
+    width: 40%;
+    float:left;
+
+    /*DA CANCELLARE*/
+    height: 40%;
+    background-color: violet;
+}
+
+.right-container-bottom {
+    width: 60%;
+    float: left;
+
+    /*DA CANCELLARE*/
+    height: 40%;
+    background-color: pink;
+}
+
+.left-cta-bottom {
+    width: 50%;
+    float: left;
+
+    /*DA CANCELLARE*/
+    height: 60%;
+    background-color: black;
+}
+
+.right-img-bottom {
+    width: 50%;
+    float: left;
+
+    /*DA CANCELLARE*/
+    height: 60%;
+    background-color: blue;
+}
 /* FINE STYLE BODY*/
+
+
+/*INIZIO STILE FOOTER*/
+
+.bcg-footer {
+    width: 100vw;
+    height: 50vh;
+    background-color: #33475b;
+}
+
+.nav-menu {
+    width: 25%;
+    float: left;
+    /*DA CANCELLARE*/
+    height:40%;
+    background-color: brown;
+    border: 1px solid white;
+}
+
+.middle-footer-container {
+    width: 100%;
+    /*DA CANCELLARE*/
+    height: 20%;
+}
+
+.right-footer-container {
+    width: 25%;
+    float: right;
+
+    /*DA CANCELLARE*/
+    height: 100%;
+    background-color: lightblue;
+}
+
+.last-footer-container {
+    width: 100%;
+
+    /*DA CANCELLARE*/
+    height: 40%;
+    background-color: green;
+}
+/*FINE STILE FOOTER*/
