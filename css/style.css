@@ -207,7 +207,6 @@ ol li {
     width : 30%;
     padding-top:20px;
     float: left;
-    height: 100px;
 }
 
 .right-container-near-img {
@@ -238,20 +237,40 @@ ol li {
 .right-container-near-img i {
     color: orange;
 }
-
+/* CARDS */
 .cards {
     width: 80%;
     margin:0 auto;
-    padding-top: 200px;
+    padding-top: 100px;
     padding-bottom: 40px;
 }
 
 .card {
     width:33.3333%;
     float:left;
-    background-color: blue;
     text-align: center;
+    padding: 10px 35px;
 }
+
+.card img {
+    height: 150px;
+}
+
+.feature {
+    text-align: left;
+    padding:10px 30px;
+}
+
+.feature ul li {
+    list-style-type: none;
+}
+
+.feature i {
+    color: orange;
+    padding-right: 10px;
+}
+
+  /* ENDS CARDS*/
 
 .bcg-gridContainer {
     width: 100vw;
@@ -259,15 +278,49 @@ ol li {
 
     /*DA CANCELLARE*/
 
-    height: 50vh;
 }
 
-.grid-container {
-    width: 100%;
+.title-above-grid {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+}
 
+.title-above-grid h2 , p{
+    padding-top: 40px;
+}
+
+
+.grid-container {
+    width: 80%;
+    margin: 0 auto;
     /*DA CANCELLARE*/
-    height: 70%;
-    background-color: red;
+}
+
+.cell {
+    width: 25%;
+    float: left;
+    text-align: center;
+    padding: 30px 0px;
+    color: white;
+}
+
+.cell img {
+    height: 35px;
+}
+
+.cell:first-child, .cell:nth-child(2), .cell:nth-child(3) {
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+}
+
+.cell:nth-child(4) {
+    border-bottom: 1px solid white;
+}
+
+.cell:nth-child(5), .cell:nth-child(6), .cell:nth-child(7) {
+    border-right: 1px solid white;
 }
 
 
