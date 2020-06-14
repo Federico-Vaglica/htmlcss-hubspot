@@ -394,39 +394,92 @@ ol li {
 
 .bcg-footer {
     width: 100vw;
-    height: 50vh;
     background-color: #33475b;
+}
+
+.firstRow-footer {
+    width: 80%;
+    margin: 0 auto;
 }
 
 .nav-menu {
     width: 25%;
     float: left;
-    /*DA CANCELLARE*/
-    height:40%;
-    background-color: brown;
-    border: 1px solid white;
+    text-align: left;
+    color: white;
+    padding:25px 25px;
 }
 
-.middle-footer-container {
-    width: 100%;
-    /*DA CANCELLARE*/
-    height: 20%;
+.nav-menu h6 {
+    font-size: 20px;
+    padding-bottom: 30px;
 }
 
-.right-footer-container {
-    width: 25%;
+.nav-menu ul li {
+    list-style-type: none;
+    padding-top: 10px;
+}
+
+.nav-menu a{
+    color: white;
+    text-decoration: none;
+}
+
+.nav-menu button {
+    background-color: grey;
+    border: 0px;
+    border-radius: 2px;
+}
+
+.nav-menu ul li a i {
+    font-size:25px;
+    padding-top: 10px;
+    padding-left: 11px;
+}
+
+.secondRow-footer {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 80px 0 40px 0;
+    border-bottom: 1px solid white;
+}
+
+.secondRow-footer ul li {
+    display:inline;
+    list-style-type: none;
+    padding:0 15px;
+}
+
+.secondRow-footer ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.logo-privacy {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.logo {
+    padding: 30px 0;
+    float: left;
+    color: white;
+}
+
+.logo p {
+    padding: 0px;
+}
+
+.privacy {
     float: right;
-
-    /*DA CANCELLARE*/
-    height: 100%;
-    background-color: lightblue;
+    padding: 30px 0 ;
 }
 
-.last-footer-container {
-    width: 100%;
-
-    /*DA CANCELLARE*/
-    height: 40%;
-    background-color: green;
+.privacy a {
+    text-decoration: none;
+    color: white;
+    padding-left: 5px;
 }
+
 /*FINE STILE FOOTER*/
