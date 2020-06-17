@@ -13,6 +13,15 @@
 html {
     font-family: 'Montserrat', sans-serif;
 }
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+button a {
+    color:white;
+}
 /*Inizio style header */
 
 
@@ -42,6 +51,7 @@ html {
 .topleft li{
     float:left;
     list-style-type: none;
+    position: relative;
 }
 
 
@@ -49,7 +59,35 @@ html {
     padding-left: 20px;
 }
 
+.topleft li ul {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    z-index: 99;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 4px;
+}
 
+.topleft li:hover ul {
+    display: block;
+}
+
+.topleft li ul li {
+    padding: 0px;
+}
+
+.topleft li ul li:last-child{
+    padding: 0px ;
+}
+.topleft li ul li a {
+    padding: 5px;
+
+}
+
+.topleft li ul a:hover {
+    background-color: lightblue;
+}
 
 .rightmenu {
     float:right;
@@ -119,6 +157,10 @@ ol li {
     float: left;
     list-style-type: none;
 }
+
+.bottomRightMenu ol li ul {
+    display: block;
+}
 /*FINE STYLE HEADER*/
 
 
@@ -144,9 +186,9 @@ ol li {
 
 .leftJumbo {
     width: 50%;
-    height: 400px;
     position: absolute;
     top:30%;
+    z-index: 1;
 }
 
 .leftJumbo h1 p {
